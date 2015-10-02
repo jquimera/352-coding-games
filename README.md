@@ -1,4 +1,4 @@
-# 352-coding-games
+# 352 Coding Games
 _Simple programming problems_
 
 ### What is this?
