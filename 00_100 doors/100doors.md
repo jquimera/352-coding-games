@@ -6,4 +6,4 @@ You have 100 doors in a row that are all initially closed. You make 100 passes b
 Question: What state are the doors in after the last pass? Which are open, which are closed?
 
 ##Hosted Solutions
-- [Terrible HAML/LESS/jQuery Solution](http://codepen.io/anon/pen/zvZZyN) by landerson352
+- [Terrible HAML/LESS/jQuery Solution](http://codepen.io/BrokenLinc/pen/yYMbJa) by landerson352
