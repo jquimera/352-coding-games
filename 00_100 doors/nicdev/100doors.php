@@ -2,7 +2,7 @@
 
 $limit = 100; // max number of passes through all doors
 $pass = 1; // start on the first door
-$doors = array_fill(1, 100, 'closed'); // set up the XX doors
+$doors = array_fill($pass, $limit, 'closed'); // set up the XX doors
 
 while($pass <= $limit) {
   // reset $skip to begin at the $pass index, and skip 
