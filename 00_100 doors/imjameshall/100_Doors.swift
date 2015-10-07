@@ -11,7 +11,7 @@ import Foundation
 
 
 func OneHundredDoors() {
-    var doors = [Bool](count: 100, repeatedValue: true)
+    var doors = [Bool](count: 100, repeatedValue: false)
     
     var i: Int
     for i = 1; i <= 100; ++i {
