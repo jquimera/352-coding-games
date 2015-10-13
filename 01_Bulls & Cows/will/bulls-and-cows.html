@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>taureaux et vaches</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+		
+      <div class="jumbotron" style="">
+        <h1>taureaux et vaches</h1>
+  		  <p>We have generated a random, non-repeating, 4-digit number. Can you guess what it is?</p>
+      </div>
+
+  		<!--<form name="form1">-->
+  		<div class="row">
+          <div class="col-lg-12">
+            <div class="input-group">
+                <input type="text" class="form-control" autocomplete="off" id="guess" maxlength="5" placeholder="Your guess">
+                <span class="input-group-btn">
+                  <input type="button" onclick="gameEngine.checkGuess()" class="btn btn-primary" value="Check Guess">
+                </span>
+              </div>
+          </div>
+      </div>
+
+  		<!--</form>-->
+
+      <div>&nbsp;</div>
+
+      <div id="invalid" style="display:none;">
+        <div class="alert alert-danger">The value entered is not valid. Please enter 4 numeric, non-repeating digits.</div>
+      </div>
+
+      <div id="results" style="display:none;">
+        
+        <div id="partialMatch" class="text-warning" style="display:none;">
+          <h3><span id="bullCount">0</span> Bulls,
+            <span id="cowCount">0</span> Cows<h3>
+        </div>
+
+        <div id="exactMatch" class="text-success" style="display:none;">
+          <h3>Exact Match! 4 Bulls! Great job!</h3>
+        </div>
+
+      </div>
+
+      <p><a href="javascript:location.reload()">Start a new Game</a>
+
+    </div>
+
+    <script src="bulls-and-cows.js"></script>
+  </body>
+</html>
+
